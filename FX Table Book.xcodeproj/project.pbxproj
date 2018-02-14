@@ -7,23 +7,66 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		801CBFEC20337F3900F4D9C4 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 801CBFEB20337F3900F4D9C4 /* CardView.swift */; };
+		801CBFEE203489EE00F4D9C4 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 801CBFED203489EE00F4D9C4 /* Launch Screen.storyboard */; };
+		8020142F2032A072002D6072 /* TableTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8020142E2032A072002D6072 /* TableTVC.swift */; };
+		802014312032C3DC002D6072 /* MainTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 802014302032C3DC002D6072 /* MainTVC.swift */; };
+		8064C1DC203217FF006FFE19 /* error.gif in Resources */ = {isa = PBXBuildFile; fileRef = 8064C1DB203217FF006FFE19 /* error.gif */; };
+		8064C1DE20322463006FFE19 /* BookTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8064C1DD20322463006FFE19 /* BookTableVC.swift */; };
+		8064C1E020323F42006FFE19 /* token.gif in Resources */ = {isa = PBXBuildFile; fileRef = 8064C1DF20323F42006FFE19 /* token.gif */; };
+		8064C1E220324329006FFE19 /* timer.gif in Resources */ = {isa = PBXBuildFile; fileRef = 8064C1E120324329006FFE19 /* timer.gif */; };
+		8064C1E42032553C006FFE19 /* MenuTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8064C1E32032553C006FFE19 /* MenuTVC.swift */; };
+		8064C1E8203271DD006FFE19 /* AddTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8064C1E7203271DD006FFE19 /* AddTableVC.swift */; };
+		8064C1EA203271FF006FFE19 /* EditTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8064C1E9203271FF006FFE19 /* EditTableVC.swift */; };
+		8064C1EC2032724E006FFE19 /* SettingsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8064C1EB2032724E006FFE19 /* SettingsVC.swift */; };
+		8064C1EE20327262006FFE19 /* AboutVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8064C1ED20327262006FFE19 /* AboutVC.swift */; };
 		80C01B8220317F0E008015C3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C01B8120317F0E008015C3 /* AppDelegate.swift */; };
 		80C01B8420317F0E008015C3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C01B8320317F0E008015C3 /* ViewController.swift */; };
 		80C01B8720317F0E008015C3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80C01B8520317F0E008015C3 /* Main.storyboard */; };
 		80C01B8A20317F0E008015C3 /* FX_Table_Book.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 80C01B8820317F0E008015C3 /* FX_Table_Book.xcdatamodeld */; };
 		80C01B8C20317F0E008015C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80C01B8B20317F0E008015C3 /* Assets.xcassets */; };
-		80C01B8F20317F0E008015C3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80C01B8D20317F0E008015C3 /* LaunchScreen.storyboard */; };
+		80C01B97203181E7008015C3 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 80C01B96203181E7008015C3 /* GoogleService-Info.plist */; };
+		80C01B9A2031887E008015C3 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C01B992031887E008015C3 /* CustomButton.swift */; };
+		80C01B9C20318D35008015C3 /* CustLoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C01B9B20318D35008015C3 /* CustLoginVC.swift */; };
+		80C01B9E20318D46008015C3 /* RecLoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C01B9D20318D46008015C3 /* RecLoginVC.swift */; };
+		80C01BA12031B2B6008015C3 /* WaitingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C01BA02031B2B6008015C3 /* WaitingVC.swift */; };
+		80C01BA32031B336008015C3 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C01BA22031B336008015C3 /* MainVC.swift */; };
+		80C01BA92031C617008015C3 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80C01BA82031C617008015C3 /* Launch Screen.storyboard */; };
+		B203E953FF76B413D7A3587B /* Pods_FX_Table_Book.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9879BA8E83D8C24F7361493 /* Pods_FX_Table_Book.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2F876E0C56EB63176CB21BC3 /* Pods-FX Table Book.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FX Table Book.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FX Table Book/Pods-FX Table Book.debug.xcconfig"; sourceTree = "<group>"; };
+		3C55EED8F7632A8813254345 /* Pods-FX Table Book.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FX Table Book.release.xcconfig"; path = "Pods/Target Support Files/Pods-FX Table Book/Pods-FX Table Book.release.xcconfig"; sourceTree = "<group>"; };
+		801CBFEB20337F3900F4D9C4 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		801CBFED203489EE00F4D9C4 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		8020142E2032A072002D6072 /* TableTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableTVC.swift; sourceTree = "<group>"; };
+		802014302032C3DC002D6072 /* MainTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTVC.swift; sourceTree = "<group>"; };
+		8064C1DB203217FF006FFE19 /* error.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = error.gif; sourceTree = "<group>"; };
+		8064C1DD20322463006FFE19 /* BookTableVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookTableVC.swift; sourceTree = "<group>"; };
+		8064C1DF20323F42006FFE19 /* token.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = token.gif; sourceTree = "<group>"; };
+		8064C1E120324329006FFE19 /* timer.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = timer.gif; sourceTree = "<group>"; };
+		8064C1E32032553C006FFE19 /* MenuTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuTVC.swift; sourceTree = "<group>"; };
+		8064C1E7203271DD006FFE19 /* AddTableVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTableVC.swift; sourceTree = "<group>"; };
+		8064C1E9203271FF006FFE19 /* EditTableVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditTableVC.swift; sourceTree = "<group>"; };
+		8064C1EB2032724E006FFE19 /* SettingsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsVC.swift; sourceTree = "<group>"; };
+		8064C1ED20327262006FFE19 /* AboutVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutVC.swift; sourceTree = "<group>"; };
 		80C01B7E20317F0E008015C3 /* FX Table Book.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FX Table Book.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		80C01B8120317F0E008015C3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		80C01B8320317F0E008015C3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		80C01B8620317F0E008015C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		80C01B8920317F0E008015C3 /* FX_Table_Book.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FX_Table_Book.xcdatamodel; sourceTree = "<group>"; };
 		80C01B8B20317F0E008015C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		80C01B8E20317F0E008015C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		80C01B9020317F0E008015C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80C01B96203181E7008015C3 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		80C01B992031887E008015C3 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		80C01B9B20318D35008015C3 /* CustLoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustLoginVC.swift; sourceTree = "<group>"; };
+		80C01B9D20318D46008015C3 /* RecLoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecLoginVC.swift; sourceTree = "<group>"; };
+		80C01B9F2031916C008015C3 /* FX-Table-Book-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FX-Table-Book-Bridging-Header.h"; sourceTree = "<group>"; };
+		80C01BA02031B2B6008015C3 /* WaitingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaitingVC.swift; sourceTree = "<group>"; };
+		80C01BA22031B336008015C3 /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
+		80C01BA82031C617008015C3 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		F9879BA8E83D8C24F7361493 /* Pods_FX_Table_Book.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FX_Table_Book.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +74,39 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B203E953FF76B413D7A3587B /* Pods_FX_Table_Book.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1EE91592E0F825E92A84808A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F9879BA8E83D8C24F7361493 /* Pods_FX_Table_Book.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8064C1DA203217F0006FFE19 /* GIFS */ = {
+			isa = PBXGroup;
+			children = (
+				8064C1E120324329006FFE19 /* timer.gif */,
+				8064C1DF20323F42006FFE19 /* token.gif */,
+				8064C1DB203217FF006FFE19 /* error.gif */,
+			);
+			path = GIFS;
+			sourceTree = "<group>";
+		};
 		80C01B7520317F0E008015C3 = {
 			isa = PBXGroup;
 			children = (
+				801CBFED203489EE00F4D9C4 /* Launch Screen.storyboard */,
 				80C01B8020317F0E008015C3 /* FX Table Book */,
 				80C01B7F20317F0E008015C3 /* Products */,
+				E69C854BE60B947FF096CE7D /* Pods */,
+				1EE91592E0F825E92A84808A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +121,49 @@
 		80C01B8020317F0E008015C3 /* FX Table Book */ = {
 			isa = PBXGroup;
 			children = (
+				8064C1DA203217F0006FFE19 /* GIFS */,
+				80C01B9820318837008015C3 /* CustomViews */,
 				80C01B8120317F0E008015C3 /* AppDelegate.swift */,
+				80C01BA82031C617008015C3 /* Launch Screen.storyboard */,
+				8064C1DD20322463006FFE19 /* BookTableVC.swift */,
 				80C01B8320317F0E008015C3 /* ViewController.swift */,
+				8064C1E32032553C006FFE19 /* MenuTVC.swift */,
+				802014302032C3DC002D6072 /* MainTVC.swift */,
 				80C01B8520317F0E008015C3 /* Main.storyboard */,
 				80C01B8B20317F0E008015C3 /* Assets.xcassets */,
-				80C01B8D20317F0E008015C3 /* LaunchScreen.storyboard */,
+				80C01B96203181E7008015C3 /* GoogleService-Info.plist */,
 				80C01B9020317F0E008015C3 /* Info.plist */,
 				80C01B8820317F0E008015C3 /* FX_Table_Book.xcdatamodeld */,
+				80C01B9B20318D35008015C3 /* CustLoginVC.swift */,
+				80C01B9D20318D46008015C3 /* RecLoginVC.swift */,
+				80C01BA02031B2B6008015C3 /* WaitingVC.swift */,
+				80C01B9F2031916C008015C3 /* FX-Table-Book-Bridging-Header.h */,
+				80C01BA22031B336008015C3 /* MainVC.swift */,
+				8064C1ED20327262006FFE19 /* AboutVC.swift */,
+				8064C1EB2032724E006FFE19 /* SettingsVC.swift */,
+				8064C1E9203271FF006FFE19 /* EditTableVC.swift */,
+				8020142E2032A072002D6072 /* TableTVC.swift */,
+				8064C1E7203271DD006FFE19 /* AddTableVC.swift */,
 			);
 			path = "FX Table Book";
+			sourceTree = "<group>";
+		};
+		80C01B9820318837008015C3 /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				801CBFEB20337F3900F4D9C4 /* CardView.swift */,
+				80C01B992031887E008015C3 /* CustomButton.swift */,
+			);
+			path = CustomViews;
+			sourceTree = "<group>";
+		};
+		E69C854BE60B947FF096CE7D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2F876E0C56EB63176CB21BC3 /* Pods-FX Table Book.debug.xcconfig */,
+				3C55EED8F7632A8813254345 /* Pods-FX Table Book.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +173,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 80C01B9320317F0E008015C3 /* Build configuration list for PBXNativeTarget "FX Table Book" */;
 			buildPhases = (
+				C724AB8C7DB197C1A558D80E /* [CP] Check Pods Manifest.lock */,
 				80C01B7A20317F0E008015C3 /* Sources */,
 				80C01B7B20317F0E008015C3 /* Frameworks */,
 				80C01B7C20317F0E008015C3 /* Resources */,
+				B04113F51569DAEA22B8A505 /* [CP] Embed Pods Frameworks */,
+				265D41E07E7EC9649E18CD65 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -126,22 +228,129 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				80C01B8F20317F0E008015C3 /* LaunchScreen.storyboard in Resources */,
+				8064C1E220324329006FFE19 /* timer.gif in Resources */,
+				8064C1DC203217FF006FFE19 /* error.gif in Resources */,
+				801CBFEE203489EE00F4D9C4 /* Launch Screen.storyboard in Resources */,
+				80C01B97203181E7008015C3 /* GoogleService-Info.plist in Resources */,
+				8064C1E020323F42006FFE19 /* token.gif in Resources */,
 				80C01B8C20317F0E008015C3 /* Assets.xcassets in Resources */,
+				80C01BA92031C617008015C3 /* Launch Screen.storyboard in Resources */,
 				80C01B8720317F0E008015C3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		265D41E07E7EC9649E18CD65 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FX Table Book/Pods-FX Table Book-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B04113F51569DAEA22B8A505 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-FX Table Book/Pods-FX Table Book-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/BoringSSL/openssl.framework",
+				"${BUILT_PRODUCTS_DIR}/CNPPopupController/CNPPopupController.framework",
+				"${BUILT_PRODUCTS_DIR}/EFCountingLabel/EFCountingLabel.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/MGSwipeTableCell/MGSwipeTableCell.framework",
+				"${BUILT_PRODUCTS_DIR}/PKHUD/PKHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/SideMenu/SideMenu.framework",
+				"${BUILT_PRODUCTS_DIR}/SkyFloatingLabelTextField/SkyFloatingLabelTextField.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftGifOrigin/SwiftGifOrigin.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC/GRPCClient.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-Core/grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-ProtoRPC/ProtoRPC.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-RxLibrary/RxLibrary.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/openssl.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CNPPopupController.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/EFCountingLabel.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MGSwipeTableCell.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PKHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SideMenu.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SkyFloatingLabelTextField.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftGifOrigin.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GRPCClient.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ProtoRPC.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxLibrary.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FX Table Book/Pods-FX Table Book-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C724AB8C7DB197C1A558D80E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FX Table Book-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		80C01B7A20317F0E008015C3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8020142F2032A072002D6072 /* TableTVC.swift in Sources */,
+				8064C1EE20327262006FFE19 /* AboutVC.swift in Sources */,
+				8064C1EC2032724E006FFE19 /* SettingsVC.swift in Sources */,
+				80C01B9A2031887E008015C3 /* CustomButton.swift in Sources */,
+				8064C1DE20322463006FFE19 /* BookTableVC.swift in Sources */,
 				80C01B8A20317F0E008015C3 /* FX_Table_Book.xcdatamodeld in Sources */,
+				80C01B9C20318D35008015C3 /* CustLoginVC.swift in Sources */,
 				80C01B8420317F0E008015C3 /* ViewController.swift in Sources */,
 				80C01B8220317F0E008015C3 /* AppDelegate.swift in Sources */,
+				8064C1E42032553C006FFE19 /* MenuTVC.swift in Sources */,
+				802014312032C3DC002D6072 /* MainTVC.swift in Sources */,
+				8064C1EA203271FF006FFE19 /* EditTableVC.swift in Sources */,
+				80C01BA32031B336008015C3 /* MainVC.swift in Sources */,
+				80C01B9E20318D46008015C3 /* RecLoginVC.swift in Sources */,
+				80C01BA12031B2B6008015C3 /* WaitingVC.swift in Sources */,
+				801CBFEC20337F3900F4D9C4 /* CardView.swift in Sources */,
+				8064C1E8203271DD006FFE19 /* AddTableVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -154,14 +363,6 @@
 				80C01B8620317F0E008015C3 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		80C01B8D20317F0E008015C3 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				80C01B8E20317F0E008015C3 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -276,6 +477,7 @@
 		};
 		80C01B9420317F0E008015C3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F876E0C56EB63176CB21BC3 /* Pods-FX Table Book.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -291,6 +493,7 @@
 		};
 		80C01B9520317F0E008015C3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C55EED8F7632A8813254345 /* Pods-FX Table Book.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

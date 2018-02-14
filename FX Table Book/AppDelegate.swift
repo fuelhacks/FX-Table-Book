@@ -8,6 +8,9 @@
 
 import UIKit
 import CoreData
+import Firebase
+import FirebaseDatabase
+import IQKeyboardManagerSwift
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -17,6 +20,32 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        FirebaseApp.configure()
+        //let db = Firestore.firestore()
+        IQKeyboardManager.sharedManager().enable = true
+        
+        let status = UserDefaults.standard.integer(forKey: "status")
+        
+        if(status == 2){
+            
+            let storyboard:UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
+            let navigationController:UINavigationController = storyboard.instantiateInitialViewController() as! UINavigationController
+            let rootViewController:UIViewController = storyboard.instantiateViewController(withIdentifier: "mainview") as UIViewController
+            navigationController.viewControllers = [rootViewController]
+            self.window?.rootViewController = navigationController
+        }
+        
+        if(status == 3){
+            
+            let storyboard:UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
+            let navigationController:UINavigationController = storyboard.instantiateInitialViewController() as! UINavigationController
+            let rootViewController:UIViewController = storyboard.instantiateViewController(withIdentifier: "custview") as UIViewController
+            navigationController.viewControllers = [rootViewController]
+            self.window?.rootViewController = navigationController
+        }
+        
+        
         return true
     }
 

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>164156647340-sjhgnl8b8unc075soe4sbfss8ge3arvn.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.164156647340-sjhgnl8b8unc075soe4sbfss8ge3arvn</string>
+	<key>API_KEY</key>
+	<string>AIzaSyAgw0_3m2HBdhSN6jlFynNu3eH1AZA9pGY</string>
+	<key>GCM_SENDER_ID</key>
+	<string>164156647340</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.shripaljain.FX-Table-Book</string>
+	<key>PROJECT_ID</key>
+	<string>fx-table-book</string>
+	<key>STORAGE_BUCKET</key>
+	<string>fx-table-book.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true></true>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false></false>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:164156647340:ios:d4a26c56e0c82ba5</string>
+	<key>DATABASE_URL</key>
+	<string>https://fx-table-book.firebaseio.com</string>
+</dict>
+</plist>
